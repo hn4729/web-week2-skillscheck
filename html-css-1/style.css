@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar {
+    background-color: grey;
+    width: 100%;
+    height: 8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrapper {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrapper ul{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero {
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 50px
+}
+
+.flexbox-container {
+    height: 110vh;
+    margin: 20px; 
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+.teal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+}
+
+.orange-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+}
+
+.teal-box {
+    height: 28vh;
+    width: 28vh;
+    background-color: rgb(59, 218, 196);
+    border-radius: 20px;
+}
+
+.orange-box {
+    height: 28vh;
+    width: 35vw;
+    background-color: rgb(252, 191, 78);
+}
+
+.article {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.article p {
+    width: 50%;
+    height: 30%;
+}
+
+.article img {
+    height: 300px;
+    width: 400px;
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(37, 26, 37)
+}
