@@ -42,6 +42,8 @@ let checkGroceryCount = () => {
         return "1 item";
     } else if (groceries.length > 1) {
         return `${groceries.length} items`;
+    } else if (groceries.length === 0) {
+        return "No items";
     }
 }
 
